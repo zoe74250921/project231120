@@ -1,0 +1,133 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul {list-style-type: none;}
+
+
+header {
+    max-width: 1200px;
+    height: 69px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+header nav ul a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 50px;
+}
+
+.nav_icon img {
+    padding-right: 20px;
+}
+
+
+.banner {
+    width: 1200px;
+    height: 450px;
+}
+
+.banner_box {
+    position: absolute;
+    z-index: 1;
+}
+
+.banner_text {
+    position: absolute;
+    color: #fff;
+    width: 459px;
+    height: 182px;
+    top: 140px;
+    left: 60px;
+}
+
+.banner_text strong {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 69.5px;
+    margin-bottom: 16px;
+}
+
+.banner_text p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31.86px;
+}
+
+.banner_box img {
+    display: block;
+}
+
+
+.content {
+    width: 1200px;
+    height: 404px;
+    padding: 40px 20px 61px 20px;
+}
+
+.content strong {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46.34px;
+    margin-bottom: 15px;
+}
+
+.content_box {
+    display: flex;
+}
+
+.content_list {
+    width: 275px;
+    height: 242px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.content_list img {
+    width: 273.01px;
+    height: 155px;
+    display: block;
+    margin-bottom: 10.5px;
+}
+
+.content_list strong {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26.06px;
+}
+
+.content_list .line {
+    width: 60px; 
+    border-top: 2px solid #000;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.content_list p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20.27px;
+}
+
